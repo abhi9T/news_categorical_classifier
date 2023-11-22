@@ -48,3 +48,9 @@ The deployment phase involves making the model accessible in a user-friendly man
 Explore the deployed model [here](https://newscategoricalclassifier.streamlit.app/). Interact with the system, input news articles, and witness accurate categorization results.
 
 Feel free to delve into the code, customize it for your needs, and contribute to the enhancement of this news categorization system. If you encounter any issues or have suggestions, please create an issue in the repository.
+
+![Screenshot 2023-11-23 044717](https://github.com/abhi9T/news_categorical_classifier/assets/122251068/b278bfa4-45f8-4f8a-9c72-2b8a7e1ee2d7)
+
+![Screenshot 2023-11-23 044644](https://github.com/abhi9T/news_categorical_classifier/assets/122251068/6034addc-0ae2-44a5-935f-d3351496cf39)
+
+![Screenshot 2023-11-23 044508](https://github.com/abhi9T/news_categorical_classifier/assets/122251068/ccb20290-a776-4e37-aa64-f43948b1e600)
