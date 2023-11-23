@@ -1,5 +1,7 @@
 # News Classification System
 
+Live demo : https://newscategoricalclassifier.streamlit.app/
+
 This repository comprises a comprehensive solution for scraping news articles from the Indian Express webpage, categorizing them into distinct topics, and deploying a highly accurate model for real-time article classification. The system utilizes web scraping techniques, advanced classification algorithms, and a user-friendly deployment interface.
 
 ## 1. Web Scraping:
