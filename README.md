@@ -24,7 +24,7 @@ Follow these steps to utilize the News Classification System:
    - Open the `news_webscraping_NonStopIO.ipynb` notebook in Google Colab.
    - Run the web scraping code to generate a CSV file for classification.
 
-     **Note: If you encounter any errors during execution, try running the code again, as real-time updates on the news website may cause intermittent issues.**
+**Note: If you encounter any errors during execution, try running the code again, as real-time updates on the news website may cause intermittent issues.**
 
 2. **Classification:**
    - Download the CSV file generated from the web scraping notebook.
