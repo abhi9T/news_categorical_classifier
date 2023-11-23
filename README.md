@@ -10,29 +10,42 @@ In the initial phase, news articles are extracted from the Indian Express websit
 
 ## 2. Classification:
 
-Articles are intelligently categorized into six distinct classes: 'business,' 'sports,' 'political-pulse,' 'entertainment,' 'lifestyle,' and 'education.' The classification algorithm is implemented in the notebook `news_classification_NonStopIO.ipynb`. Leveraging TF-IDF vectorization, the model achieves an impressive accuracy rate of approximately 98.44%. This high accuracy ensures reliable and precise categorization of news articles.
+Articles are intelligently categorized into six distinct classes: 'business,' 'sports,' 'political-pulse,' 'entertainment,' 'lifestyle,' and 'education.' The classification algorithm is implemented in the notebook `news_classification_NonStopIO.ipynb`. Leveraging TF-IDF vectorization for building vectorical data from textual data and implementing Support Vector Classifier for classification, the model achieves an impressive accuracy rate of approximately 98.44%. This high accuracy ensures reliable and precise categorization of news articles.
 
 ## 3. Deployment:
 
 The deployment phase involves making the model accessible in a user-friendly manner. The deployment code is available in the notebook `news_deployment_NonStopIO.ipynb`. Streamlit, a powerful Python library for creating web applications, is employed to develop an interactive web interface. Users can easily interact with the system and receive real-time classifications for news articles.
 
-## How to Use:
+# How to Use:
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/news-categorization.git
-   ```
+Follow these steps to utilize the News Classification System:
 
-2. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. **Web Scraping:**
+   - Open the `news_webscraping_NonStopIO.ipynb` notebook in Google Colab.
+   - Run the web scraping code to generate a CSV file for classification.
+   - Note: If you encounter any errors during execution, try running the code again, as real-time updates on the news website may cause intermittent issues.
 
-3. **Run the Code:**
-   Execute the web scraping, classification, or deployment code as needed, following the instructions provided in each notebook.
+2. **Classification:**
+   - Download the CSV file generated from the web scraping notebook.
+   - Open the `news_classification_NonStopIO.ipynb` notebook in Google Colab.
+   - Upload the CSV file and run the code to generate the classification model.
 
-4. **Explore the Deployed Model:**
-   Access the deployed model through the following link: [News Categorical Classifier](https://newscategoricalclassifier.streamlit.app/). Experience real-time news article categorization through an intuitive and user-friendly interface.
+3. **Deployment:**
+   - Download the classification model.
+   - Open the `news_deployment_NonStopIO.ipynb` notebook in Google Colab.
+   - Upload the model and run the code to generate the `app.py` file.
+
+4. **GitHub Repository Setup:**
+   - Create a GitHub repository and upload all the generated files, including the notebooks, CSV file, model file, and `app.py`.
+   - Include a `requirements.txt` file specifying the necessary dependencies.
+
+5. **Streamlit App Deployment:**
+   - Visit Streamlit and create a new app deployment.
+   - Connect the app to the GitHub repository containing all the files.
+   - Deploy the app on the Streamlit cloud.
+   - After deployment, you'll receive a permanent URL for the running application.
+
+By following these steps, you'll have the News Classification System deployed on the Streamlit cloud, providing a user-friendly interface for real-time news article categorization. Users can access the application through the provided URL.
 
 ## Notebooks:
 
